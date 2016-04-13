@@ -7,8 +7,8 @@ alt.urlArgs = alt.environment == 'production' ? '_v=' + alt.version : '_t=' + (+
 
 // advanced configuration
 alt.run([
-    '$log', '$q', '$rootScope', '$auth', '$api', '$route', '$window', '$timeout', '$ionicPlatform', '$ionicHistory',
-    function($log, $q, $rootScope, $auth, $api, $route, $window, $timeout, $ionicPlatform,$ionicHistory){
+    '$log', '$q', '$rootScope', '$auth', '$api', '$route', '$window', '$timeout',
+    function($log, $q, $rootScope, $auth, $api, $route, $window, $timeout){
 
 
     }

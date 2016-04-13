@@ -1,5 +1,5 @@
 {
-  "name": "HelloIonic",
+  "name": "AkhdaniAcademy",
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.2.4"
@@ -47,5 +47,11 @@
       "lolliclock": "lib/lolliclock/**",
       "cryptojslib": "lib/cryptojslib/**"
     }
+  },
+  "resolutions": {
+    "angular": "1.5.3"
+  },
+  "dependencies": {
+    "alt-angularjs": "^5.0.1"
   }
 }

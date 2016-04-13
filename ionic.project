@@ -1,4 +1,9 @@
 {
   "name": "mobile",
-  "app_id": ""
+  "app_id": "",
+  "documentRoot": "app",
+  "watchPatterns": [
+    "app/**/*",
+    "www/**/*"
+  ]
 }
