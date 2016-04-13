@@ -1,7 +1,7 @@
 alt.application = 'academy';
 alt.title = 'Akhdani Academy';
 alt.client = 'PT. Akhdani Reka Solusi';
-alt.version = 'v2';
+alt.version = '1.0.0';
 alt.environment = 'production';
 alt.urlArgs = alt.environment == 'production' ? '_v=' + alt.version : '_t=' + (+new Date());
 
