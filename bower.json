@@ -3,5 +3,49 @@
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#1.2.4"
+  },
+  "install": {
+    "path": "app/asset/lib",
+    "sources": {
+      "accounting": "lib/accounting/accounting.min.js",
+      "alt-angularjs": "lib/alt-angularjs/dist/alt.min.js",
+      "angular": [
+        "lib/angular/angular.min.js",
+        "lib/angular/angular-csp.css"
+      ],
+      "angular-animate": "lib/angular-animate/angular-animate.min.js",
+      "angular-jwt": "lib/angular-jwt/dist/angular-jwt.min.js",
+      "angular-route": "lib/angular-route/angular-route.min.js",
+      "angular-sanitize": "lib/angular-sanitize/angular-sanitize.min.js",
+      "angular-ui-router": "lib/angular-ui-router/release/angular-ui-router.min.js",
+      "angular-materialize": "lib/angular-materialize/src/angular-materialize.js",
+      "font-awesome": "lib/font-awesome/**",
+      "chartist": [
+        "lib/chartist/dist/chartist.min.js",
+        "lib/chartist/dist/chartist.min.css",
+        "lib/chartist-plugin-axistitle/dist/chartist-plugin-axistitle.min.js"
+      ],
+      "ionic": "lib/ionic/**",
+      "ionic-material": "lib/ionic-material/dist/**",
+      "ionic-platform-web-client": "lib/ionic-platform-web-client/dist/**",
+      "ionic-audio": "lib/ionic-audio/dist/**",
+      "jquery": "lib/jquery/dist/jquery.min.js",
+      "Materialize": "lib/Materialize/dist/**",
+      "medium-style-confirm": [
+        "lib/medium-style-confirm/css/**",
+        "lib/medium-style-confirm/js/**"
+      ],
+      "moment": "lib/moment/min/moment-with-locales.min.js",
+      "ngCordova": [
+        "lib/ngCordova/dist/ng-cordova.min.js",
+        "lib/ngCordova/dist/ng-cordova-mocks.min.js"
+      ],
+      "requirejs": "lib/requirejs/require.js",
+      "requirejs-plugins": "lib/requirejs-plugins/**",
+      "store2": "lib/store2/dist/store2.min.js",
+      "sip.js": "lib/sip.js/dist/sip.min.js",
+      "lolliclock": "lib/lolliclock/**",
+      "cryptojslib": "lib/cryptojslib/**"
+    }
   }
 }
